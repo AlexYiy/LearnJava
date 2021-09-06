@@ -2,12 +2,7 @@ import java.util.Scanner;
 import java.util.HashMap;
 public class Main {
     public static void main(String[] args) {
-        //Scanner in = new Scanner(System.in);
-        //int a = in.nextInt();
-        //System.out.println(a);
-        System.out.println("Hello World!");
     }
-    
 }
 
 class MyDate {
@@ -42,7 +37,7 @@ class MyDate {
             if (d1.year%4) {
                 daysFromMonth = 28
             } else {
-                
+                // TODO
             }
         }
          = monthDay.getOrDefault(d1.month, 30);
